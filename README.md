@@ -1,8 +1,11 @@
 ## Install for local dev
 
 Clone the git repository
+
 Create new database (MySQL or PostgreSQL)
+
 Rename `env.example` file to `.env` and update the database connection details in `.env` file
+
 Generate and add the key to the `.env` file. Key can be obtain by running `php artisan key:generate --show`
 
 Run `composer install`
